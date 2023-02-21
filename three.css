@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+    text-decoration:none;
+}
+body{
+    background-color:rgb(5,5,20);
+}
+li a{
+    color:white;
+}
+.btn{
+    background-color: red;;
+}
+#journey{
+    color:white;
+}
+#journey2{
+    color:white;
+}
+#home h1{
+    color:white;
+}
+#services h1{
+    margin-top:50px;
+    font-size:15px;
+    color:white;
+}
+#services h2{
+    color:red;
+}
+.navbar-text{
+    color:red;
+    font-size:2rem;
+    padding-right:10px;
+}
+.cards,
+.card2{
+    display:flex;
+}
+.card{
+    background-color: black;
+    padding-top:20px;
+    border:solid 2px;
+    margin:20px;
+}
+.card-text{
+    color:white;
+}
+@media (max-width:700px){
+    .cards,
+.card2{
+    display:block;
+}
+}
+.btn{
+    transition: 0.5s;
+}
+#contact{
+    margin-top:50px;
+}
+#contact h1{
+    color:red;
+}
+#one,
+#two,
+#three,
+#four{
+    color:white;
+    margin-top:20px;
+    font-size:2rem;
+}
